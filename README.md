@@ -36,7 +36,7 @@ AI P-실무 4분반 6조 프로젝트
 ## 자료 공유
 - 코드·CSV·설정 기록: 이 GitHub 저장소
 - 이미지·합성 데이터·모델 가중치·영상: 공유 구글 드라이브
-- 구글 드라이브 링크: 추가 예정
+- 구글 드라이브 링크: https://drive.google.com/drive/folders/16u0j63STaWysmI07lkFtV7qIyE55XZaO?usp=sharing
 
 ## 데이터 사용 규칙
 학습·검증·테스트 분할을 구분하여 사용
