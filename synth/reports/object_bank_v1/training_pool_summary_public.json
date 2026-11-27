@@ -1,0 +1,50 @@
+{
+  "project": "RDD",
+  "step": "35-B-3-G-3",
+  "object_bank_version": "object_bank_v1",
+  "training_pool_version": "training_pool_v1_20261127_180657_5e79d3ab",
+  "created_at_kst": "2026-11-27T18:06:57.576027+09:00",
+  "object_bank": {
+    "total_objects": 692,
+    "pilot_candidates": 618,
+    "approved_objects": 502,
+    "unique_foreground_sources": 495,
+    "rgba_review_pass": 490,
+    "source_review_pass": 12,
+    "source_review_hold": 93,
+    "source_review_exclude": 23,
+    "not_in_pilot": 74,
+    "pilot_retention_pct": 81.23,
+    "bank_approval_pct": 72.54
+  },
+  "class_distribution": {
+    "cone": 112,
+    "box": 112,
+    "garbage": 109,
+    "sign": 107,
+    "stone": 62
+  },
+  "quality_validation": {
+    "status": "PASS",
+    "valid_foreground_files": 502,
+    "invalid_foreground_files": 0,
+    "exact_file_duplicate_records": 0,
+    "exact_rgba_duplicate_records": 0
+  },
+  "data_leakage_validation": {
+    "b1_train_membership": "PASS",
+    "sequence_audit": "PASS",
+    "validation_test_overlap": 0
+  },
+  "training_label_mapping": {
+    "0": "debris"
+  },
+  "approval_scope": "CONTROLLED_SYNTHESIS_EXPERIMENTS",
+  "limitations": [
+    "Exact duplicate checks do not establish absence of visually similar objects.",
+    "Object pool approval does not establish synthetic image realism.",
+    "Downstream detection performance has not yet been evaluated.",
+    "REVIEW and EXCLUDE objects are not approved."
+  ],
+  "synthetic_images_generated_in_this_step": 0
+}
